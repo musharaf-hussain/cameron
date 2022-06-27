@@ -312,7 +312,7 @@ a:visited {
 }
 .sub-menu .main-content-1 {
   margin-left: -200px;
-    width: 290%;
+    width: 700px;
     height: 300px;
     display: flex;
     flex-direction: row !important;
@@ -320,7 +320,7 @@ a:visited {
 }
 .sub-menu .main-content-1 .first-1 {
   margin-top: 5px;
-  width:140%;
+  width:300px;
   border-radius: 20px;
 }
 .sub-menu .main-content-1 .first-1 h4 {
@@ -342,7 +342,7 @@ a:visited {
 
 .sub-menu .main-content-1 .second-1 {
   margin-top: 5px;
-  width:150%;
+  width:400px;
   border-left:1px solid gray;
 }
 .sub-menu .main-content-1 .second-1 h4 {
