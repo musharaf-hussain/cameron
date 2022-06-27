@@ -334,6 +334,7 @@ a:visited {
 .sub-menu .main-content .first ul li {
   list-style: none;
   font-size: 13px;
+  font-style: bold;
 }
 
 .sub-menu .main-content .first ul li a:hover {
@@ -367,7 +368,7 @@ a:visited {
 
 .sub-menu .main-content-1 {
   margin-left: -200px;
-  width: 290%;
+  width: 750px;
   height: 340px;
   display: flex;
   flex-direction: row !important;
@@ -376,17 +377,17 @@ a:visited {
 }
 
 .sub-menu .main-content-1 .first-1 {
-  width: 140%;
+  width: 350px;
   border-radius: 20px;
   margin-top: 30px;
 }
 
 .sub-menu .main-content-1 .first-1 h5 {
-  color: #000;
+  color: lightslategrey;
   margin-left: 30px;
   margin-top: 5px;
   font-style: bold;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .sub-menu .main-content-1 .first-1 ul li {
@@ -412,7 +413,7 @@ a:visited {
 
 .sub-menu .main-content-1 .second-1 {
   margin-bottom: 5px;
-  width: 150%;
+  width: 400px;
   border-left: .5px solid rgb(211, 211, 211);
   margin-top: 10px;
   padding-right: 5px;
@@ -422,14 +423,15 @@ a:visited {
   margin-left: 30px;
   margin-top: 25px;
   margin-right: 20px;
-  color: #000;
+  color: lightslategray;
   font-style: bold;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .sub-menu .main-content-1 .second-1 ul li {
   list-style: none;
   font-size: 13px;
+  font-style: bold;
 }
 
 .sub-menu .main-content-1 .second-1 ul li a:hover {
@@ -786,12 +788,13 @@ a:visited {
   width: 100%;
   object-fit: cover;
   column-gap: 5px;
+  transition: width 2s;
 }
 
 .container .col img:hover {
-  background-color: white;
+  background-color:whitesmoke;
   box-sizing: border-box;
-  width: 160px;
+  width: 150px;
   border: 2px solid orangered;
   border-radius: 20px 20px 20px 20px;
 
